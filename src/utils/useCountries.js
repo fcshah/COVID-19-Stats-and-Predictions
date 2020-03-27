@@ -19,7 +19,7 @@ export default function useCountries(query) {
         )
         const json = await data.json()
 
-        //console.log(json)
+        console.log(json)
         const resCountries = []
 
         const filtered = json.filter(country => country["name"][0].toLowerCase() === query[0].toLowerCase())

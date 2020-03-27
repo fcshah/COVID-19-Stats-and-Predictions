@@ -31,7 +31,6 @@ export default () => {
           <th>Active cases</th>
           <th>Deaths</th>
           <th>Cured</th>
-          <th>Prediction by 1st April</th>
         </tr>
       </thead>
       <tbody>

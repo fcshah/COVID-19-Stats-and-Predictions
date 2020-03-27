@@ -22,10 +22,7 @@ export default () => {
     setTimeout(() => {
       try {
         setStatsDisplay(
-          <StatsDisplay
-            name={countries[0]["name"]}
-            code={countries[0]["code"]}
-          />
+          <StatsDisplay name={countries[0]["name"]} code={countries[0]["code"]} />
         )
       } catch (err) {
         console.log(err)
