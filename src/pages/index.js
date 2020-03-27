@@ -47,7 +47,7 @@ export default () => {
 
       <CountryStats />
 
-      <Table />
+      {/* <Table /> */}
 
       <Footer />
     </React.Fragment>
