@@ -38,15 +38,18 @@ a, a:active, a:visited {
 	border-radius: 50px;
 	margin-left: 10px;
 	background-color: #fff;
+	text-rendering: optimizeLegibility;
 }
 
 .twitter {
 	color: #4099FF;
-    justify-content: center;
+	justify-content: center;
+	text-rendering: optimizeLegibility;
 }
 
 .facebook {
 	color: #3B5998;
+	text-rendering: optimizeLegibility;
 }
 .google-plus {
 	color: #DB5A3C;
@@ -54,15 +57,18 @@ a, a:active, a:visited {
 
 .instagram {
 	color: #5C3D2E;
+	text-rendering: optimizeLegibility;
 }
 
 .github {
 	color: #4183C4;
+	text-rendering: optimizeLegibility;
 }
 
 .icon-btn:hover {
 	transform: scale(1.10);	
 	color: #FFFFFF;
+	
 }
 
 .twitter:hover {
