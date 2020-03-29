@@ -36,9 +36,10 @@ a, a:active, a:visited {
 	line-height: 75px;
 	transition: ease-in-out .3s;
 	border-radius: 50px;
-	margin-left: 10px;
+	margin-left: 5px;
 	background-color: #fff;
 	text-rendering: optimizeLegibility;
+
 }
 
 .twitter {
@@ -73,6 +74,7 @@ a, a:active, a:visited {
 
 .twitter:hover {
 	background-color: #4099FF;	
+	color: #fff;
 }
 
 .facebook:hover {
