@@ -2,7 +2,7 @@ import React from "react"
 
 export default () => {
   return (
-    <div className="footer social">
+    <div className="footer">
 {/* <div className="social"> */}
     		<h3><i> Check me out below! </i></h3>
     		{/* <button className="icon-btn twitter">
