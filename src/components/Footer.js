@@ -12,17 +12,17 @@ export default () => {
         </button> */}
     		<button className="icon-btn facebook">
     		<a className="link" href="https://www.facebook.com/fenil.shah.5070" target="_blank">
-    			<i className="fa fa-facebook"></i>
+    			<i className="fa fa-facebook" ></i>
     		</a>
         </button>
-    		<button className="icon-btn linkedin">
+    		<button className="icon-btn twitter">
     		<a className="link" href="https://www.linkedin.com/in/sfenil/" target="_blank">
         <i class="fa fa-linkedin-square" style={{  color:"#3a3ad7" }}></i>
     		</a>
         </button>
     		<button className="icon-btn instagram">
     		<a className="link" href="https://www.instagram.com/_fenilshah_/"  target="_blank">
-    			<i className="fa fa-instagram"></i>
+    			<i className="fa fa-instagram" style={{alignSelf:"center"}}></i>
     		</a>
         </button>
     		<button className="icon-btn github">

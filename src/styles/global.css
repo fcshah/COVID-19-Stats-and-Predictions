@@ -42,6 +42,7 @@ a, a:active, a:visited {
 
 .twitter {
 	color: #4099FF;
+    justify-content: center;
 }
 
 .facebook {
