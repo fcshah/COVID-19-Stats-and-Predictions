@@ -26,7 +26,7 @@ export default () => {
     		</a>
         </button>
     		<button className="icon-btn github">
-    		<a className="link" href="https://github.com/fcshah" target="_blank">
+    		<a className="link" href="https://github.com/fcshah" style={{alignSelf:"left"}} target="_blank">
     			<i className="fa fa-github"></i>
     		</a>
         </button>

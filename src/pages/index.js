@@ -46,8 +46,10 @@ export default () => {
       <CountryStats />
 
       {/* <Table /> */}
-      <p><b>Soon launching a statewise data...Stay tuned..</b> </p>
+     
       <Footer />
+
+      <p><b>Soon launching a statewise data...Stay tuned..</b> </p>
     
     </React.Fragment>
   )
