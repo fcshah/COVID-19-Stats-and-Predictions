@@ -17,17 +17,15 @@ export default () => {
 
   return (
     <React.Fragment>
-      <h1>COVID-19 LIVE Global Statistics by </h1> A project by{" "}
+      <h1>COVID-19 LIVE Global Statistics </h1> A project by{" "} Software Developer {" "}
       <a
         target="_blank"
         href="https://github.com/fcshah"
         rel="noopener noreferrer"
       >
-        Fenil shah
-      </a>
+        Fenil shah </a> {" "} 
       <br/>
       <br/>
-
       {/* <hr /> */}
 
       <div className="globalStatsGrid">
@@ -48,8 +46,9 @@ export default () => {
       <CountryStats />
 
       {/* <Table /> */}
-
+      <p><b>Soon launching a statewise data...Stay tuned..</b> </p>
       <Footer />
+    
     </React.Fragment>
   )
 }
