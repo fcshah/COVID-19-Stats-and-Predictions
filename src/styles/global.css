@@ -33,7 +33,7 @@ a, a:active, a:visited {
 	color: #fff;
 	cursor: pointer;
 	font-size: 40px;
-	/* line-height: 75px; */
+	line-height: 75px;
 	transition: ease-in-out .3s;
 	border-radius: 50px;
 	margin-left: 10px;
