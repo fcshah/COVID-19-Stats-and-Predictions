@@ -39,6 +39,8 @@ a, a:active, a:visited {
 	margin-left: 10px;
 	background-color: #fff;
 	text-rendering: optimizeLegibility;
+	align-items :center;
+	align-self: center;
 
 }
 
