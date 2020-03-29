@@ -5,11 +5,11 @@ export default () => {
     <div className="footer social">
 {/* <div className="social"> */}
     		<h3><i> Check me out below! </i></h3>
-    		<button className="icon-btn twitter">
+    		{/* <button className="icon-btn twitter">
     		<a className="link" href="https://twitter.com/" target="_blank">
     			<i className="fa fa-twitter"></i>
     		</a>
-        </button>
+        </button> */}
     		<button className="icon-btn facebook">
     		<a className="link" href="https://www.facebook.com/fenil.shah.5070" target="_blank">
     			<i className="fa fa-facebook" ></i>
@@ -22,7 +22,7 @@ export default () => {
         </button>
     		<button className="icon-btn instagram">
     		<a className="link" href="https://www.instagram.com/_fenilshah_/"  target="_blank">
-    			<i className="fa fa-instagram"></i>
+    		<center>	<i className="fa fa-instagram"></i></center>
     		</a>
         </button>
     		<button className="icon-btn github">
