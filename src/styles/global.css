@@ -6,7 +6,11 @@ html {
   font-family: "Poppins", sans-serif;
   text-align: center;
   /* background-color: #f9d9f5; */
-  background-image: url('bg2.png');
+  background: url('bg2.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 a, a:active, a:visited {
