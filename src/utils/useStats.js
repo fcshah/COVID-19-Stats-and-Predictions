@@ -12,9 +12,7 @@ export default function useStats(url, headers) {
       setLoading(true)
       setError()
       console.log(`useStats :: Fetching data`)
-      const data = await fetch(url, {
-        headers: headers
-      })
+      const data = await fetch(url)
         .then(res => res.json())
         .catch(err => {
           setError(err)
