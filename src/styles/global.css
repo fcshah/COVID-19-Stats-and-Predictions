@@ -38,7 +38,7 @@ a, a:active, a:visited {
 	color: #fff;
 	cursor: pointer;
 	font-size: 40px;
-	line-height: 75px;
+	line-height: 50px;
 	transition: ease-in-out .3s;
 	border-radius: 50px;
 	margin-left: 10px;
@@ -46,7 +46,21 @@ a, a:active, a:visited {
 	text-rendering: optimizeLegibility;
 	align-items :center;
 	align-self: center;
+}
 
+.ios-btn {
+	height: 4rem !important;
+	width: 4rem !important;
+	padding-right: 3rem;
+	padding-bottom: 40px !important;
+	margin-bottom: 10px;
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+	/* pointer-events: none; */
+	font-size: 40px;
+	line-height: 65px;
+	transition: ease-in-out .3s;
 }
 
 .twitter {
@@ -76,7 +90,6 @@ a, a:active, a:visited {
 .icon-btn:hover {
 	transform: scale(1.10);	
 	color: #FFFFFF;
-	
 }
 
 .twitter:hover {
@@ -86,6 +99,7 @@ a, a:active, a:visited {
 
 .facebook:hover {
 	background-color: #3B5998;	
+	color: #fff;
 }
 
 .google-plus:hover {
@@ -94,10 +108,12 @@ a, a:active, a:visited {
 
 .instagram:hover {
 	background-color: #5C3D2E;	
+	color: #FFFFFF;
 }
 
 .github:hover {
 	background-color: #4183C4;	
+	color: #FFFFFF;
 }
 
 a.link {
