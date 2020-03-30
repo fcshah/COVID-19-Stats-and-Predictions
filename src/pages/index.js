@@ -49,7 +49,7 @@ export default () => {
 
       <Footer />
 
-      <p><b>Soon launching a statewise data...Stay tuned..</b> </p>
+      {/* <p><b>Soon launching a statewise data...Stay tuned..</b> </p> */}
 
     </React.Fragment>
   )
