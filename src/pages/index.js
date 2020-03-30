@@ -1,7 +1,7 @@
 import React from "react"
 import "./index.css"
 import useStats from "../utils/useStats"
-import { Loader, CountryStats, Footer, Table } from "../components"
+import { Loader, CountryStats, Footer } from "../components"
 
 export default () => {
   const { stats, loading, error } = useStats("https://covid19.mathdro.id/api")
@@ -23,9 +23,9 @@ export default () => {
         href="https://github.com/fcshah"
         rel="noopener noreferrer"
       >
-        Fenil shah </a> {" "} 
-      <br/>
-      <br/>
+        Fenil shah </a> {" "}
+      <br />
+      <br />
       {/* <hr /> */}
 
       <div className="globalStatsGrid">
@@ -46,11 +46,11 @@ export default () => {
       <CountryStats />
 
       {/* <Table /> */}
-     
+
       <Footer />
 
       <p><b>Soon launching a statewise data...Stay tuned..</b> </p>
-    
+
     </React.Fragment>
   )
 }

@@ -14,7 +14,7 @@ export default () => {
 
   const [showSuggestions, setShowSuggestions] = useState(false)
 
-  const { countries, countriesLoading, countriesError } = useCountries(query)
+  const { countries } = useCountries(query)
 
   const handleFormSubmit = e => {
     e.preventDefault()
@@ -34,7 +34,7 @@ export default () => {
     }, 500)
   }
 
-  const handleResultItemClick = (e, code, name) => {
+  const handleResultItemClick = (code, name) => {
     console.log(`CLICKED!`)
     console.log(code)
 
@@ -52,7 +52,7 @@ export default () => {
   return (
     <div className="countryStatsGrid">
       <form onSubmit={handleFormSubmit}>
-        <img className="searchIcon" src="search_icon.png" />
+        <img className="searchIcon" src="search_icon.png" alt="search_icon.png" />
         <input
           className="searchBar"
           value={query}
@@ -69,18 +69,18 @@ export default () => {
         <ul className="searchResults">
           {countries && showSuggestions && query !== ""
             ? countries.map(country => {
-                return (
-                  <li
-                    key={country["code"]}
-                    onClick={e =>
-                      handleResultItemClick(e, country["code"], country["name"])
-                    }
-                    className="searchResult"
-                  >
-                    {country["name"]}
-                  </li>
-                )
-              })
+              return (
+                <li
+                  key={country["code"]}
+                  onClick={e =>
+                    handleResultItemClick(country["code"], country["name"])
+                  }
+                  className="searchResult"
+                >
+                  {country["name"]}
+                </li>
+              )
+            })
             : null}
         </ul>
       </form>
